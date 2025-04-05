@@ -1,0 +1,22 @@
+{
+  "name": "nile/laravel-server",
+  "description": "Full Laravel server SDK for Nile platform",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nile\\LaravelServer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nile\\LaravelServer\\NileServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
